@@ -269,7 +269,7 @@ li{
 }
 
 .containercard .card:hover{
-	height: 750px;
+	height: 280px;
 }
 
 .containercard .card .imgBx{
@@ -277,7 +277,8 @@ li{
 	width: 260px;
 	height: 260px;
 	top: -60px;
-	left: 20px;
+/*	left: 18px;
+	right: 18px;*/
 	z-index: 1;
 	box-shadow: 0 5px 20px rgba(0,0,0,0.2);
 }
@@ -305,10 +306,7 @@ li{
 	transition-delay: 0.3s;
 }
 
-.containercard .content .job{
-	text-align: left;
-	font-size: 1.3rem;
-}
+
 /*End pengurus*/
 
 
@@ -338,7 +336,10 @@ li{
 	font-size: 2rem;
 	font-weight: 300;
 }
-
+.about-details h2{
+	text-align: center;
+	font-size: 2rem;
+}
 .profile-img{
 	flex: 1;
 	margin-right: 5rem;
@@ -357,6 +358,14 @@ li{
 	transition: color 650ms;
 }
 
+.about-details ul{
+	text-align: left;
+	font-size: 1.5rem;
+}
+.fab{
+	color: #666362;
+}
+
 .fa-facebook-square:hover{
 	color: #4267b2;
 }
@@ -368,6 +377,7 @@ li{
 .fa-youtube-square:hover{
 	color: #E70000;
 }
+
 /*End about*/
 
 
