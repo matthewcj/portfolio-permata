@@ -884,6 +884,15 @@ input[type="submit"]:hover{
 	height: 100%;
 }
 
+.momo .container .content h2{
+	color: black;
+	text-align: center;
+}
+
+.momo .container .content a{
+	color: gray;
+}
+
 iframe{
 	width: 100%;
 	height: 600px;
